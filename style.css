@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#canvas-container {
+    position: relative;
+}
+
+h1, p {
+    position: absolute;
+    color: #fff;
+    z-index: 10;
+    margin: 0;
+    padding: 20px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    top: 10px;
+    left: 10px;
+    font-size: 2.5em;
+}
+
+p {
+    top: 70px;
+    left: 30px;
+    font-size: 1.2em;
+    opacity:0.8
+}
